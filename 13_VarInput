@@ -1,0 +1,13 @@
+using System.Windows.Markup;
+using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        var s = ReadLine();
+        var c = Convert.ToChar(Read());
+
+        WriteLine($"{s} : {s.GetType()}, {c} : {c.GetType()}");
+    }
+}
