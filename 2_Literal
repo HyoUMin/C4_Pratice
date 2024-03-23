@@ -1,0 +1,12 @@
+using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        WriteLine(1234);
+        WriteLine(3.14F);
+        WriteLine('A');
+        WriteLine("Hello");
+    }
+}
