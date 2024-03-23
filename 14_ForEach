@@ -1,0 +1,15 @@
+using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        string str = "ABC123";
+
+        foreach (char c in str) 
+        {
+            Write($"{c}\t");
+        }
+        WriteLine();
+    }
+}
