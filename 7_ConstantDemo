@@ -1,0 +1,10 @@
+using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        const int Max = 100;
+        WriteLine("Max : {0} ", Max);
+    }
+}
