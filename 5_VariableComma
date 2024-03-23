@@ -1,0 +1,15 @@
+using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        int a, b, c;
+
+        a = 1;
+        b = 2;
+        c = 3;
+
+        WriteLine("{0} {1} {2}", a, b, c);
+    }
+}
