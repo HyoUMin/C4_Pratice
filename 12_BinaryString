@@ -1,0 +1,11 @@
+using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        byte x = 10;
+
+        WriteLine($"Decimal : {x} -> Bianary {Convert.ToString(x, 2).PadLeft(8,'0')}");
+    }
+}
