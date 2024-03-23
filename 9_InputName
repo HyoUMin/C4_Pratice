@@ -1,0 +1,12 @@
+using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        Write("Name : ");
+        String Name = ReadLine();
+
+        WriteLine("Helle, {0}", Name);
+    }
+}
