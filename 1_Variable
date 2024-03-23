@@ -1,0 +1,12 @@
+ using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        int number;
+        number = 7;
+
+        WriteLine(number);
+    }
+}
