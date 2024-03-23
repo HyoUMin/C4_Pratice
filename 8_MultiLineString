@@ -1,0 +1,14 @@
+using static System.Console;
+
+class LAB
+{
+    static void Main()
+    {
+        string Multi = @"
+            Hello
+            World
+            Welcome
+            ";
+        WriteLine(Multi);
+    }
+}
