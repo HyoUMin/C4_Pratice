@@ -1,0 +1,23 @@
+using System;
+class Program
+{
+    static void Main() 
+    {
+        int[] intArray;
+        intArray = new int[3];
+
+        intArray[0] = 1;
+        intArray[1] = 2;
+        intArray[2] = 3;
+
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine($"{i} : {intArray[i]}");
+        }
+
+        foreach (int intValue in intArray)
+        {
+            Console.WriteLine("{0}", intValue);
+        }
+    }
+}
