@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main() 
+    {
+        int[] kor = new int[3];
+        int sum = 0;
+        double avg = 0;
+
+        kor[0] = 100;
+        kor[1] = 90;
+        kor[2] = 80;
+
+        sum = kor[0] + kor[1] + kor[2];
+        avg = sum / 3.0;
+
+        Console.WriteLine($"sum = {sum}, avg = {avg : 0.00}");
+
+    }
+}
