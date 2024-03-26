@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Product product;
+
+        product.Id = 1; 
+        product.Title = "Me Before You";
+        product.Price = 18000;
+
+        string message = $"num : {product.Id}\nitem : {product.Title}\nprice : {product.Price}";
+
+        Console.WriteLine(message);
+     }
+
+    struct Product
+    {
+        public int Id;
+        public string Title;
+        public decimal Price;
+    }
+}
