@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static string message = "global";
+    static void ShowMessage()
+    {
+        string message = "local";
+        Console.WriteLine(message);
+    }
+
+    
+    static void Main()
+    {
+        ShowMessage();
+        Console.WriteLine(message);
+    }
+}    
