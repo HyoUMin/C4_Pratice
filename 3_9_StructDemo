@@ -1,0 +1,18 @@
+using System;
+
+struct Point
+{
+    public int x; public int y;
+}
+
+class StructDemo
+{
+    static void Main()
+    {
+        Point point;
+        point.x = 100;
+        point.y = 200;
+
+        Console.WriteLine($"{point.x}, {point.y}");
+    }
+}
