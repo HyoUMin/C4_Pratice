@@ -1,0 +1,18 @@
+using System;
+
+public class myClass 
+{
+    public static void myMethod()
+    {
+        Console.WriteLine("Class");
+    }
+}
+
+class classDescription
+{
+    static void Main()
+    {
+        myClass.myMethod();
+    }
+}
+
