@@ -1,0 +1,27 @@
+using System;
+
+struct Member
+{
+    public string Name;
+    public int Age;
+}
+
+class StructParameter
+{
+    static void Main()
+    {
+        string name = "Tom";
+        int age = 21;
+        Print(name, age);
+
+        Member m;
+        m.Name = "Tony";
+        m.Age = 38;
+        Print(m);
+    }
+
+    static void Print(string name, int age) => Console.WriteLine(name, age);
+
+    static void Print(Member member) => Console.WriteLine(member.Name, member.Age);
+
+}
