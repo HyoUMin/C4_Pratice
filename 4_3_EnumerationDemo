@@ -1,0 +1,20 @@
+using System;
+
+enum Priority
+{
+    high,
+    normal,
+    low
+}
+
+class EnumerationDemo
+{
+    static void Main()
+    {
+        Priority h = Priority.high;
+        Priority n = Priority.normal;
+        Priority l = Priority.low;
+
+        Console.WriteLine($"{h}, {n}, {l}");
+    }
+}
