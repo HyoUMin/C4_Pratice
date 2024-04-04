@@ -1,0 +1,20 @@
+using System;
+
+
+namespace EnumIndex
+{
+    enum Animal {  Rabbit, Dragon, Snake}
+
+    class EnumIndex
+    {
+        static void Main()
+        {
+            Animal animal = Animal.Rabbit;
+            int num = (int)animal;
+            string str = animal.ToString();
+
+            Console.WriteLine($"{num}, {str}");
+
+        }
+    }
+}
